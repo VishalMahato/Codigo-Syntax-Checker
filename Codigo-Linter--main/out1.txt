@@ -1,0 +1,14 @@
+if [ $(((i+j)%2)) -eq 0 ];then
+        # echo -e -n "\\e[40m "
+        echo " "
+    else
+        # echo -e -n "\\e[47m "
+        echo " "
+    fi
+if [ $(((i+j)%2)) -eq 0 ];then
+        # echo -e -n "\\e[40m "
+        echo " "
+    else
+        # echo -e -n "\\e[47m "
+        echo " "
+fi

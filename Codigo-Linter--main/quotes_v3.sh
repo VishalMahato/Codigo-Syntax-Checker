@@ -1,0 +1,4 @@
+ehco "mistake 
+
+cd
+ls

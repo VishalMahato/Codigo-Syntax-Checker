@@ -1,0 +1,84 @@
+
+
+---------------------------------------------------------------------------------------------------------------------------------------------------
+             Software Requirements Specification (SRS) for Shell Script Syntax Checker ( NOVA-ASK [acronyms of our names] ) 
+---------------------------------------------------------------------------------------------------------------------------------------------------
+
+1. Introduction
+_____________________
+
+1.1 Purpose
+The purpose of this SRS is to specify the requirements for the development of a Shell Script Syntax Checker, referred to as NOVA-ASK. The tool will be developed to help users check the syntax of shell scripts and identify any errors in the script.
+
+1.2 Scope
+The scope of NOVA-ASK includes the development of a shell script that can take a shell script as input and perform syntax checks on it. The tool should provide feedback to the user indicating any errors that occur in the script, including but not limited to missing semicolons, incorrect use of quotes, incorrect use of parentheses, and incorrect use of variables.
+
+1.3 Objectives
+The main objectives of NOVA-ASK are to:
+- Develop a shell script that can perform syntax checks on a shell script.
+- Provide feedback to the user indicating any errors that occur in the script.
+- Ensure that the tool is user-friendly and easy to use.
+
+
+
+2. Functional Requirements
+__________________________________
+
+
+2.1 User Upload
+The user should be able to upload their shell script for syntax checking.
+
+2.2 Error Identification
+The tool should be able to identify any errors in the script, including but not limited to:
+- Missing semicolons
+- Incorrect use of quotes
+- Incorrect use of parentheses
+- Incorrect use of basic syntax
+
+2.3 Feedback
+The tool should provide feedback to the user indicating where the error(s) occur and what the error(s) is/are.
+
+2.4 Script Length Handling
+The tool should be able to handle scripts of any length.
+
+
+
+3. Non-Functional Requirements
+_______________________________________
+
+
+3.1 User Interface
+The tool should have a user-friendly interface.
+
+3.2 Operating System
+The tool should be able to run on a Unix-based system/unix/mac.
+
+3.3 Script Compatibility
+The tool should be able to handle scripts written in different versions of shell script.
+
+3.4 Feedback Timeliness
+The tool should be able to provide feedback to the user in a timely manner.
+
+
+
+4. User Requirements
+____________________________
+
+
+4.1 Upload
+The user should be able to upload their shell script for syntax checking.
+
+4.2 Feedback View
+The user should be able to view the feedback provided by the tool.
+
+4.3 Feedback Understanding
+The user should be able to understand the feedback provided by the tool, even if they are not an experienced shell script programmer.
+
+5. Acceptance Criteria
+5.1 Syntax Error Identification
+The tool should be able to identify all syntax errors in the shell script.
+
+5.2 Feedback Accuracy and Clarity
+The feedback provided by the tool should be accurate and easy to understand.
+
+*******************************************************************************************************************************************************
